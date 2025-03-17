@@ -1,0 +1,32 @@
+ 
+{%extends "admin_layout.html"%} 
+{%block content%} 
+    <h3 class="text-center">Add New Service</h3>  
+
+    <form action="/new_service" method="POST" >        
+    <div class="input_form">
+        <!-- Service Name -->
+        <div class="mb-3">
+            <label for="service_name" class="form-label">Service name</label>
+            <input type="text" class="form-control" name="service_name" id="service_name" placeholder="Enter service name">
+        </div>
+        <!-- Description -->
+        <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" name="description" id="description" rows="3" placeholder="Optional"></textarea>
+        </div>
+        <!-- Base Price -->
+        <div class="mb-3">
+            <label for="base_price" class="form-label">Base Price</label>
+            <input type="number" class="form-control" name="base_price" id="base_price" placeholder="Enter base_price">
+        </div>
+
+        <div class="mb-3 text-center">
+          <button type="submit" class="btn btn-primary">Add service</button>
+          <a href="/admindash" type="button" class="btn btn-primary">Cancel</a>
+        </div>
+    </div>
+    </form>
+    {%endblock%}
+
+

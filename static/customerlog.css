@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+}
+
+.container{
+    border: 1px solid rgb(255, 255, 255);
+    width: 70%;
+    padding: 40px;
+    height: 780px;
+    background-color: #eef4fc; /* Light gray background for better visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel{
+    width: 30%;
+    margin: auto;
+    height: auto;
+    border: 1px rgb(12, 5, 5);
+    background-color: #ffffff; /* White panel background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center;
+    align-items: center;
+}
+
+.input_form{
+    border: 1px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.err_msg{
+    text-align:center;
+    margin: auto;
+    color: maroon
+}

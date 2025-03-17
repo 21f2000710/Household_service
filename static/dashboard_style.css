@@ -1,0 +1,125 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    padding: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.navbar-brand:hover {
+    color: #007bff;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #555;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Search Form Styling */
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-outline-secondary {
+    color: #333;
+    border-color: #ccc;
+    transition: all 0.3s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* Toast Styling */
+.toast {
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.toast-header {
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.toast-body {
+    font-size: 0.9rem;
+}
+
+.toast-container {
+    z-index: 1050;
+}
+
+/* Panel Content */
+#panel {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffffff;
+    color: #555;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .form-select, .form-control {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,30 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+  }
+  
+  /* Services Cards */
+  .card {
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #ddd;
+  }
